@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap");
+
+/* @import url("https://fonts.googleapis.com/css2?family=Sacramento&display=swap"); */
+
+/* 
+colors 
+bacgroundDark: #343a40
+backgroundGray: #ffffff;
+
+*/
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* body {
+  font-family: "roboto", sans-serif; 
+  /display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  justify-content: center; 
+} */
+
+header {
+  background-image: url(img/bg8.jpeg);
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-position: center center; */
+  min-height: calc(100vh - 67.59px);
+}
+
+hr {
+  border: dotted #dddddd 10px !important;
+  border-bottom: none !important;
+  width: 5% !important;
+  margin: 6.5rem auto !important;
+}
+
+.centered {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/****  SHOWCASE ****/
+
+#showcase .title {
+  font-family: "Sacramento", cursive;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+#showcase .titleLead {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+}
+
+/****  MEET THE DEVELOPER ****/
+
+.meetTheDev {
+  margin-bottom: 5rem;
+}
+
+.introduction {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.introduction h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+}
+
+.photo {
+  padding: 0 !important;
+  margin: auto;
+}
+
+/****  PROJECTS ****/
+
+.cardsDec li {
+  list-style: none;
+}
+
+/* #carouselCards li {
+  padding-left: 0;
+  list-style: none;
+} */
+
+/****  CONTACT ****/
+
+#contact {
+  margin-bottom: 6.25rem;
+}
+
+#contact .row {
+  gap: 2rem;
+}
+
+.details p {
+  color: #fff;
+}
+
+/* .details:hover,
+.details:active {
+  color: #fff;
+  background-color: #343a40;
+} */
+
+#footer {
+  padding: 3rem;
+}
+
+#footer .socials {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 8rem;
+}
+
+#footer i {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+#footer i:hover,
+#footer i:active {
+  color: #fff;
+}
